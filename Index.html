@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Essence Gallery</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <header>
+    <img class="logo" src="logo.png" alt="" width="100px" />
+    <h1><span>Essence</span> <span>Gallery</span></h1>
+  </header>
+  <nav class="filter-container">
+  <ul class="filter-list">
+    <li><button class="filter-btn active" data-filter="all">All</button></li>
+    <li><button class="filter-btn" data-filter="architecture">Architecture</button></li>
+    <li><button class="filter-btn" data-filter="nature">Nature</button></li>
+    <li><button class="filter-btn" data-filter="abstract">Abstract</button></li>
+  </ul>
+</nav>
+<section id="description" class="description">
+      <h2>Essence</h2>
+      <p>A curated collection of moments captured in light and shadow.</p>
+    </section>
+  <main id="gallery" class="gallery">
+    
+  </main>
+  <footer>
+    <p>ESSENCE GALLERY - 2026</p>
+  </footer>
+  <aside id="lightbox" class="lightbox" aria-hidden="true" role="dialog">
+  <span class="close-btn" aria-label="Close gallery">&times;</span>
+  <button class="prev-btn" aria-label="Previous image">&#10094;</button>
+  <div class="lightbox-content">
+      <img id="lightbox-img" src="" alt="Full size view">
+  </div>
+  <button class="next-btn" aria-label="Next image">&#10095;</button>
+</aside>
+<script src="script.js">script.js</script>
+</body>
+</html>
